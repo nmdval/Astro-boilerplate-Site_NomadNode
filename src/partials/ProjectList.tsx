@@ -33,12 +33,12 @@ const ProjectList = () => (
             <Tags color={ColorTags.ROSE}>TypeScript</Tags>
           </>
         }
-        <div class="mt-3 flex flex-col items-center gap-y-2 md:flex-row">
+      />
+      <div class="mt-3 flex flex-col items-center gap-y-2 md:flex-row">
                         <a class="px-6 py-2 rounded bg-slate-900 hover:bg-slate-700 text-slate-100" href="https://explorer.aptoslabs.com/validators?network=mainnet">
                             <span class="text-md font-semibold">Validators</span>
                         </a>
-         </div>
-      />
+                    </div>
       <Project
         name="Project 2"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
