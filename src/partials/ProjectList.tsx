@@ -14,6 +14,7 @@ const ProjectList = () => (
       </>
     }
   >
+    <div className="flex flex-col gap-6">
       <Project
         name="Project 1"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
@@ -45,9 +46,9 @@ const ProjectList = () => (
         img={{ src: '/assets/images/project-fire.png', alt: 'Project Fire' }}
         category={
           <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.INDIGO}>Bootstrap</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+            <a class="px-6 py-2 rounded bg-slate-900 hover:bg-slate-700 text-slate-100" href="https://explorer.aptoslabs.com/validators?network=mainnet">
+              <span class="text-md font-semibold">Validators</span>
+            </a>
           </>
         }
       />
