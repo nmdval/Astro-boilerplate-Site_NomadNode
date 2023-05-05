@@ -42,6 +42,9 @@ const ProjectList = () => (
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
         bibendum. Nunc non posuere consectetur, justo erat semper enim, non
         hendrerit dui odio id enim."
+        <a class="px-6 py-2 rounded bg-slate-900 hover:bg-slate-700 text-slate-100" href="https://explorer.aptoslabs.com/validators?network=mainnet">
+            <span class="text-md font-semibold">Validators</span>
+        </a>
         link="/"
         img={{ src: '/assets/images/project-fire.png', alt: 'Project Fire' }}
         category={
