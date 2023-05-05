@@ -32,7 +32,8 @@ const ProjectList = () => (
             <Tags color={ColorTags.SKY}>Tailwind.css</Tags>
             <Tags color={ColorTags.ROSE}>TypeScript</Tags>
             <a class="px-6 py-2 rounded bg-slate-900 hover:bg-slate-700 text-slate-100" href="https://explorer.aptoslabs.com/validators?network=mainnet">
-            <span class="text-md font-semibold">Validators</span>
+              <span class="text-md font-semibold">Validators</span>
+            </a>
           </>
         }
       />
