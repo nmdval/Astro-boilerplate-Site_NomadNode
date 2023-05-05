@@ -37,6 +37,7 @@ const ProjectList = () => (
                         </a>
                     </div>
                 </div>
+             </div>
       <Project
         name="Project 1"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
